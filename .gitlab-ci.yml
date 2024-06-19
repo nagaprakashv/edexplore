@@ -4,3 +4,6 @@ production:
   - python setup.py bdist_wheel --universal upload -r local
   tags: 
    - pip
+
+- name: pypi-publish
+  uses: pypa/gh-action-pypi-publish@v1.9.0
