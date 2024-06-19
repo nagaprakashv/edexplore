@@ -2,7 +2,7 @@ from setuptools import setup, find_namespace_packages
 from glob import glob
 
 setup(name='edexplore',
-      version=1.0,
+      version=exec(open("./VERSION.txt").read()),
       description='A simple widget for interactive data exploration for those who use Pandas in Jupyter Notebook.',
       install_requires=['requests', 'numpy', 'pandas', 'ipywidgets'],
       url='https://github.com/nagaprakashv/explore/',
