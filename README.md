@@ -1,7 +1,7 @@
 # ED Explore
 A simple widget for interactive data exploration for those who use Pandas in Jupyter Notebook.    
     
-![drawing - Copy](https://github.com/nagaprakashv/explore/assets/13671867/9e666fb5-4eb1-42c3-96e8-53b75f9eddac)       
+<img src="https://github.com/nagaprakashv/edexplore/assets/13671867/9ddef93e-433f-40f1-b629-886b8b00a333" width=40% height=35%>     
 
 ***
 Requirements: Pandas, Jupyter Notebook, and IPyWidgets.
