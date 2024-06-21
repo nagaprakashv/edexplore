@@ -27,7 +27,7 @@ After downloading / extracting the code, go to the directory (in command line) f
 
 
 ***
-Special thanks to Ashwin Rajeev, who introduced IPyWidgets and kickstarted things to me!
+Special thanks to Ashwin Rajeev, who introduced IPyWidgets to me long back!
 ***
 Copyright (c) 2024 Nagaprakash Venkatesan , 
 [FreeBSD License](https://opensource.org/license/BSD-2-Clause)
