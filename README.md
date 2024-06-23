@@ -23,7 +23,8 @@ After downloading / extracting the code, go to the directory (in command line) f
 `from edexplore import interact`    
 `df = pd.read_csv("xzy.csv")`     
 `interact(df)`    
-![2024-06-19_16-31](https://github.com/nagaprakashv/explore/assets/13671867/7cd53826-2cf0-41f4-a335-d59bf4fd0af2)
+
+<img src="https://github.com/nagaprakashv/explore/assets/13671867/7cd53826-2cf0-41f4-a335-d59bf4fd0af2">     
 
 
 ***
