@@ -3,8 +3,9 @@ A simple widget for interactive EDA / QA for those who use Pandas in Jupyter Not
     
 <img src="https://github.com/nagaprakashv/edexplore/assets/13671867/9ddef93e-433f-40f1-b629-886b8b00a333" width=40% height=40%>     
 
-***
-Requirements: Pandas, Jupyter Notebook, and IPyWidgets.
+***   
+https://github.com/nagaprakashv/edexplore/
+***    
 
 ## How to install?
 `python -m pip install edexplore`
