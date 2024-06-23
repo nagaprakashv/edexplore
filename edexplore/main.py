@@ -25,7 +25,7 @@ def interact(df):
 
     # Box 02
     topwidgets['regex'] = widgets.Dropdown(
-        options=["is string", "is numeric", "extra spaces", "lead./trail. spaces",
+        options=["is string", "is numeric", "suspicious str.", "extra spaces", "lead./trail. spaces",
                  "missing spaces", "html tags", "unicode char.", "is not null"],
         value=None, description='regex',
         layout={"width" : "210px"}, disabled=False
