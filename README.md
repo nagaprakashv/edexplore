@@ -1,5 +1,5 @@
 # EDExplore
-A simple widget for interactive data exploration for those who use Pandas in Jupyter Notebook.    
+A simple widget for interactive EDA for those who use Pandas in Jupyter Notebook.    
     
 <img src="https://github.com/nagaprakashv/edexplore/assets/13671867/9ddef93e-433f-40f1-b629-886b8b00a333" width=40% height=40%>     
 
