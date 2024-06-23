@@ -4,7 +4,7 @@ from glob import glob
 setup(name='edexplore',
       version="1.0.0",
       description='A simple widget for interactive data exploration for those who use Pandas in Jupyter Notebook.',
-      install_requires=['requests', 'numpy', 'pandas', 'ipywidgets'],
+      install_requires=['numpy>=1.25.2', 'pandas>=2.0.3', 'ipywidgets>=8.1.0', 'notebook>=7.0.2'],
       url='https://github.com/nagaprakashv/edexplore/',
       author='nagaprakash venkatesan',
       author_email='npv3105@outlook.com',

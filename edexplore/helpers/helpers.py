@@ -1,6 +1,6 @@
 import logging
 
-from edexplore.constants import NUM_REGEX
+from edexplore.constants import NUM_REGEX, STR_REGEX
 
 logging.basicConfig(format='%(message)s')
 logger = logging.getLogger()
@@ -51,9 +51,19 @@ def _regex_conditions(columns, df, regex):
     for f in columns:
         if regex == "is not null":
             INDICES.extend( _df[_df[f].notnull()].index )
+        elif regex == "suspicious str.":
+            # filter out is numberic and is string rows and return the rest.
+            stage_01 = _df[_df[f].notnull()]
+
+            stage_02 = stage_01[stage_01[f].astype(str).str.contains(NUM_REGEX) == False]
+            stage_03 = stage_02[stage_02[f].astype(str).str.contains(STR_REGEX) == False]
+            if stage_03.empty:
+                pass
+            else:
+                INDICES.extend( stage_03.index )
         else:
             temp_df = _df[_df[f].notnull()]
-            INDICES.extend( temp_df[temp_df[f].str.contains(regex)].index )
+            INDICES.extend( temp_df[temp_df[f].astype(str).str.contains(regex)].index )
     
     filtered_df = df[df.index.isin( list(set(INDICES)) )]
 
