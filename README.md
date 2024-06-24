@@ -22,11 +22,10 @@ At times, you may need to enable the ipywidgets notebook extension:
 `from edexplore import interact`    
 `df = pd.read_csv("xzy.csv")`     
 `interact(df)`    
-    
-<img src="https://github.com/nagaprakashv/explore/assets/13671867/7cd53826-2cf0-41f4-a335-d59bf4fd0af2" width=100% height=100%>     
-     
-
-***
+         
+<img src="https://github.com/nagaprakashv/edexplore/assets/13671867/9f0a94dd-b308-4a13-9ff9-14dc9bbf5bfe" width=100% height=100%>    
+           
+***   
 Special thanks to Ashwin Rajeev, who introduced IPyWidgets to me long back!
 ***
 Copyright (c) 2024 Nagaprakash Venkatesan , 
