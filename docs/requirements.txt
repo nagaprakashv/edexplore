@@ -2,3 +2,5 @@ numpy~=1.25.2
 pandas~=2.0.3
 ipywidgets~=8.1.0
 notebook~=7.0.2
+matplotlib
+jupyter-book
