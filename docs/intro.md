@@ -1,10 +1,10 @@
 # EDExplore
-A simple widget for interactive EDA / QA for those who use Pandas in Jupyter Notebook - [https://pypi.org/project/edexplore/](https://pypi.org/project/edexplore/)     
+A simple widget for interactive EDA / QA for those who use Pandas in Jupyter Notebook.     
     
 <img src="https://github.com/nagapv/edexplore/assets/13671867/9ddef93e-433f-40f1-b629-886b8b00a333">     
 
 ***   
-[https://github.com/nagapv/edexplore/](https://github.com/nagapv/edexplore/)    
+[https://github.com/nagapv/edexplore/](https://github.com/nagapv/edexplore/) | [https://pypi.org/project/edexplore/](https://pypi.org/project/edexplore/)    
 ***    
 
 ## How to install?
