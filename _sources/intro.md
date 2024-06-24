@@ -23,7 +23,7 @@ At times, you may need to enable the ipywidgets notebook extension:
 `df = pd.read_csv("xzy.csv")`     
 `interact(df)`    
          
-<img src="https://github.com/nagapv/edexplore/assets/13671867/9f0a94dd-b308-4a13-9ff9-14dc9bbf5bfe">    
+Here is the **[detailed reference](../docs/interact.ipynb)** with screenshots.
            
 ***   
 Special thanks to Ashwin Rajeev, who introduced IPyWidgets to me long back!
