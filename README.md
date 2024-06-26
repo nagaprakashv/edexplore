@@ -14,7 +14,7 @@ If you want to do it locally:-
 After downloading / extracting the code, go to the directory (in command line) for installation:        
 `python -m pip install .` OR `pip install .`   
      
-At times, you may need to enable the ipywidgets notebook extension:    
+<mark>At times, you may need to enable the ipywidgets notebook extension:</mark>    
 `jupyter nbextension enable --py widgetsnbextension`           
      
 ## How to use?
@@ -31,4 +31,4 @@ Here is the **[detailed reference](https://nagapv.github.io/edexplore/interact.h
 Special thanks to Ashwin Rajeev, who introduced IPyWidgets to me long back!
 ***
 Copyright (c) 2024 Nagaprakash Venkatesan , 
-[FreeBSD License](https://opensource.org/license/BSD-2-Clause)
+[MIT License](https://github.com/nagapv/edexplore/blob/main/LICENSE)
