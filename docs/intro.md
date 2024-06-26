@@ -14,7 +14,7 @@ Many of us explore a lot of data in a given day, asking ourselves various questi
     
 There are a few widgets / GUIs for Pandas (on Jupyter Notebooks) already out there. Compared to them, ***Interact*** in _EDExplore_ is neither fancy nor heavily loaded with features but a simple interactive function!    
         
-That is being said, why EDExplore extension matters? Because -   
+That is being said, why this extension matters? Because -   
 1) It simplifies the Pandas dataframe usage (even more)!   
 2) Makes it easy to apply most common conditions.    
 3) Helps combine multiple conditions without coding effort.   
