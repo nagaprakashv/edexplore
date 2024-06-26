@@ -32,7 +32,7 @@ If you want to do it locally:-
 After downloading / extracting the code, go to the directory (in command line) for installation:        
 `python -m pip install .` OR `pip install .`   
      
-At times, you may need to enable the ipywidgets notebook extension:    
+<mark>At times, you may need to enable the ipywidgets notebook extension:</mark>    
 `jupyter nbextension enable --py widgetsnbextension`           
      
 ## How to use?
